@@ -53,6 +53,7 @@ const Wrapper = styled.div`
       width: 18vw;
       height: 30vh;
       object-fit: cover;
+      transition:0.5s;
     }
     .card-info {
       padding: 1rem;
@@ -103,6 +104,11 @@ const Wrapper = styled.div`
           font-size: 1rem;
           font-weight: bold;
         }
+      }
+    }
+     &:hover {
+      img {
+        height: 20vh;
       }
     }
   }
