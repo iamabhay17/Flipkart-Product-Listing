@@ -21,8 +21,8 @@ const SortSection = () => {
           >
             <option value="lowest">Price --low to high</option>
             <option value="highest">Price --high to low</option>
-            <option value="a-z">Price --A to Z</option>
-            <option value="z-a">Price --Z to A</option>
+            <option value="a-z">A to Z</option>
+            <option value="z-a">Z to A</option>
           </select>
         </form>
       </div>
